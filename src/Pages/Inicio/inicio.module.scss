@@ -1,0 +1,56 @@
+
+.post{
+    background-image: url('../../assets/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 88vh;
+    display: flex;
+    align-items: center;
+   
+    h2{
+        color: white;
+        //border: solid 2px red;
+        width: 27vw;
+        font-size: 40px;
+        margin-left: 150px;
+    }
+}
+
+.devodoar{
+    //border: solid 2px red;
+    height: 85vh;
+    div{
+       // border: solid 2px green;
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        h2{
+            font-size: 30px;
+            color: rgba(0, 86, 149, 1);
+            margin-left: 60px;
+
+        }
+    }
+}
+
+.boxCard{
+    //border: solid 2px blue;
+    display: flex;
+    height: 60vh;
+    align-items: center;
+    justify-content: space-evenly;
+    article{
+      // border: solid 2px blue;
+        width: 20%;
+        height: 80%;
+        background-color: rgba(1, 87, 148, 0.3);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        p{
+            text-align: center;
+        }
+    }
+}
