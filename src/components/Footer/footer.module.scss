@@ -1,8 +1,32 @@
-.footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #0056a6; 
+
+footer{
+    height: 30vh;
     width: 100%;
-    padding: 20px 0;
+}
+
+.boxsocial {
+    background-color: #0056a6;
+    height: 20vh; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    nav{
+        border:solid 2px red;
+        width: 16vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.boxEnd{
+    background-color: rgba(35, 32, 32, 1) ;
+    height: 10vh;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

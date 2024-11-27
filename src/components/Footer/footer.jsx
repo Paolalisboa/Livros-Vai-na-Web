@@ -3,12 +3,13 @@ import twitter from '../../assets/twitter.png'
 import youtube from '../../assets/youtube.png'
 import linkedin from '../../assets/linkedin.png'
 import instagram from '../../assets/instagram.png'
+import S from './footer.module.scss'
 
 
 export default function footer(){
     return(
         <footer>
-            <section>
+            <section className={S.boxsocial}>
                 <h3>40002-8922</h3>
                 <nav>
                     <a href=""> <img src={facebook} alt="Logo do Facebook" /> </a>
@@ -18,7 +19,7 @@ export default function footer(){
                     <a href=""> <img src={instagram} alt="Logo do Instagram" /> </a>
                 </nav>
             </section>
-            <section>
+            <section className={S.boxEnd}>
                 <p>Layout desenvolvido pela Vai Na Web para fins educativos - 2024  </p>
             </section>
         </footer>
