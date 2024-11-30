@@ -1,13 +1,12 @@
 
 .principal{
-   // border: solid 2px red;
     height: 80vh;
     display: flex;
     justify-content: center;
 }
 
 .container{
-   // border: solid 2px green;
+    font-size: 26px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
@@ -22,7 +21,7 @@
         align-items: center;
         justify-content: space-around;
         div{
-           // border: solid 2px purple;
+            font-size: 24px;
             width: 100%;
             display: flex;
             align-items: center;

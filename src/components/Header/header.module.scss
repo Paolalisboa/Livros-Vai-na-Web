@@ -1,7 +1,6 @@
 
 
 header {
-    //border: solid 2px red;
     height: 20vh;
     align-items: center;
     display: flex;
@@ -10,7 +9,6 @@ header {
 }
 
 .boxLogo{
-   // border: solid 2px yellow;
     width: 23vw;
     display: flex;
     align-items: center;
@@ -67,7 +65,6 @@ header {
 @media(max-width: 1170px){
 
       .boxLogo{
-        border: solid 2px red;
         width: 25vw;
         h1{
             font-size: 2.0vw;
