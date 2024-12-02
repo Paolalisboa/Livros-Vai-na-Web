@@ -30,3 +30,24 @@ footer{
     align-items: center;
     justify-content: center;
 }
+
+@media(max-width:1000px){
+    .boxsocial{
+        nav{
+            border: solid 2px red;
+            width: 30vw;
+        }
+    }
+}
+
+@media(max-width:479px){
+    .boxsocial{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .boxEnd{
+        p{
+            text-align: center;
+        }
+    }
+}

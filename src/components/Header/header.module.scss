@@ -29,9 +29,9 @@ header {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        font-size: 20px;
         a{
             color: white;
-            font-size: 20px;
 
         } 
 
@@ -80,5 +80,35 @@ header {
         }
       }
     }
+
+    .boxMenu{
+        border: solid 2px yellow;
+        ul{
+            font-size: 1.6vw;
+
+        }
+    }
 } 
 
+@media(max-width:780px){
+    header{
+        flex-direction: column;
+        height: 25vh;
+        justify-content: space-evenly;
+    }
+
+    .boxInput{
+        display: none;
+    }
+
+    .boxLogo{
+        width: 80%;
+        h1{
+            font-size: 25px;
+        }
+        img{
+            width: 70px;
+        }
+    }
+
+}
