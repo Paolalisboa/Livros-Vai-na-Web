@@ -1,5 +1,7 @@
 import S from './doados.module.scss'
 import livro from '../../assets/livro.png'
+import livro2 from '../../assets/livro2.png'
+import livro3 from '../../assets/livro3.png'
 
 export default function Doados(){
     return(
@@ -11,6 +13,18 @@ export default function Doados(){
             <p>O protagonista</p>
             <p>Susanne Andrade</p>
             <p>Ficção</p>
+          </article>
+          <article className={S.boxlivro}>
+            <img src={livro2} alt="imagem do livro Susssuros na floresta"/>
+            <p>Sussuros na Floresa</p>
+            <p>Maria Silveira</p>
+            <p>Fantasia</p>
+          </article>
+          <article className={S.boxlivro2}>
+            <img src={livro3} alt="imagem do livro O cérebro conectado"/>
+            <p>O cérebro conectado</p>
+            <p>Renato Miranda</p>
+            <p>Educacional</p>
           </article>
         </section>
     </section>

@@ -14,7 +14,6 @@ footer{
     padding-left: 50px;
     padding-right: 50px;
     nav{
-        //border:solid 2px red;
         width: 16vw;
         display: flex;
         align-items: center;
@@ -34,7 +33,6 @@ footer{
 @media(max-width:1000px){
     .boxsocial{
         nav{
-            border: solid 2px red;
             width: 30vw;
         }
     }

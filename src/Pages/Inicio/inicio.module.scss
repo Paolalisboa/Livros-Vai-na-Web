@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 88vh;
+    height: 83vh;
     display: flex;
     align-items: center;
    
@@ -29,19 +29,16 @@
             font-size: 30px;
             color: rgba(0, 86, 149, 1);
             margin-left: 60px;
-
         }
     }
 }
 
 .boxCard{
-    //border: solid 2px blue;
     display: flex;
     height: 60vh;
     align-items: center;
     justify-content: space-evenly;
     article{
-      // border: solid 2px blue;
         width: 20%;
         height: 80%;
         background-color: rgba(1, 87, 148, 0.3);
@@ -49,16 +46,18 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
+        border-radius:10px;
         p{
             text-align: center;
+            font-size: 1.2vw;
         }
     }
 }
 
 @media(max-width:780px){
     .post{
+        justify-content: center;
         h2{
-            border: solid 2px red;
             width: 80%;
             margin-left: 0;
             text-align: center;
@@ -71,17 +70,15 @@
     article{
         p{
             font-size: 1.5vw;
-        }
-     }
+         }
+      }
    }
 }
 
 @media(max-width:780px){
     .devodoar{
-        border: solid 2px green;
         height: 120vh;
         div{
-            border: solid 2px pink;
             justify-content: center;
             h2{
                 margin-left: 0;
@@ -90,12 +87,11 @@
     }
 
     .boxCard{
-        border: solid 2px yellowgreen;
         height: auto;
         flex-wrap: wrap;
         gap: 20px;
         article{
-            width: 25vw;
+            width: 230px;
             height: 38vh;
             p{
                 font-size: 14px;
@@ -104,7 +100,7 @@
     }
 }
 
-@media(max-width:487px){
+@media(max-width:479px){
     .devodoar{
         height: 190vh;
     }

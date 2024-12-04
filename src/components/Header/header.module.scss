@@ -1,7 +1,7 @@
 
 
 header {
-    height: 20vh;
+    height: 15vh;
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -12,19 +12,16 @@ header {
     width: 23vw;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-
-    h1{ font-size: 25px;
-        color: rgba(255, 255, 255, 1);
-        ;
+    justify-content: space-evenly;
+    h1{    
+      font-size: 25px;
+      color: rgba(255, 255, 255, 1);
     }
 
 }
 
 .boxMenu{
-       // border: solid 2px greenyellow;
         width: 35vw;
-
       ul{
         display: flex;
         align-items: center;
@@ -32,9 +29,7 @@ header {
         font-size: 20px;
         a{
             color: white;
-
         } 
-
     }
 }
 
@@ -76,16 +71,14 @@ header {
       .boxInput{
          input{
         &::placeholder{
-            font-size: 1vw;
+            font-size: 1.1vw;
         }
       }
     }
 
     .boxMenu{
-        border: solid 2px yellow;
         ul{
             font-size: 1.6vw;
-
         }
     }
 } 
@@ -110,5 +103,12 @@ header {
             width: 70px;
         }
     }
-
+    
+.boxMenu{
+    width: 100%;
+    ul{
+        justify-content: space-evenly;
+        font-size: 21px;
+     }
+   }
 }
